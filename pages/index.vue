@@ -1,6 +1,6 @@
 <template>
   <div>
-    index입니다다
+    Hello from the main page!
   </div>
 </template>
 

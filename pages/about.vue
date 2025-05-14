@@ -1,13 +1,15 @@
 <template>
+  <div>This page is about me.</div>
   <div>
-    about입니다
+    <button @click="enableCustomLayout">Update layout</button>
   </div>
 </template>
-
-<script lang="ts" setup>
-
+<script setup>
+// definePageMeta({
+//   layout: "another",
+// });
+function enableCustomLayout() {
+  setPageLayout("another");
+}
 </script>
-
-<style>
-
-</style>
+<style></style>
