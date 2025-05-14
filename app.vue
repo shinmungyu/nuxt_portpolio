@@ -10,6 +10,8 @@
     </ul>
   </nav>
   <div>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
